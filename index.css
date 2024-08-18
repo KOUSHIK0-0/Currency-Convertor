@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+}
+.main-content{
+    max-width: 30%;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    padding: 5px;
+}
+.amount-block{
+    padding: 10px;
+}
+.amount-block form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.amount-block input
+{
+    padding: 5px;
+    border-radius: 4px;
+    border-style: none;
+    border: 1px solid black;
+    font-size: 1rem;
+}
+.conversion-block
+{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+.select-container select{
+    border-style: none;
+    cursor: pointer;
+}
+.select-container img{
+    width: 32px;
+}
+.msg
+{
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.btn{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    padding: 5px 10px;
+    border-style: none;
+    border-radius: 5px;
+    border: 0.5px solid rgb(135, 135, 135);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
